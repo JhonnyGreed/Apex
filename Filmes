@@ -1,0 +1,15 @@
+List<String> filmes = new List<String>{
+		'Mr. nobody', 'Fight Club', 'Perfume de mulher', 'Interstelar', 'Batman: o cavaleiro das trevas'
+	};
+system.debug(filmes.size());
+For(Integer n= 0; n<filmes.size();n++){
+    system.debug(filmes.get(n));
+}
+filmes.add('Coringa');
+filmes.add('Seven');
+filmes.add('Como se fosse a primeira vez');
+
+For(string filme: filmes ){
+  system.debug(filme);
+}
+
